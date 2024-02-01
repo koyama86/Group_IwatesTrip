@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* font-family: 'Inter', sans-serif; */
+
+/* font-family: "ta-koigokoro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* これら2つはそれぞれInterとTA-Koigokoroのフォント、使用時にクラスとかにはりつけて使ってね */
+
+.body{
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+}
+
+
+header{
+    width: 100%;
+    height: 5em;
+    background-color:cornsilk;
+}
+
