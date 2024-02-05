@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+header {
+    height: 80px;
+}
+main{
+    margin:0;
+    padding: 0;
+}
+
+.profile {
+    margin: 0 80px;
+    /* margin-left: -50px; */
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    margin-top: 230px;
+    margin-right: 55px;
+    width: 499px;
+    height: 471px;
+}
+
+.font {
+    font-family: 'Kaisei Decol', serif;
+    vertical-align: bottom;
+}
+
+p {
+    display: inline-block;
+    /* width: 300px; */
+    /* padding-top: 194px; */
+    font-size: 60px;
+    /* padding-bottom: 10px; */
+    /* white-space: 50px; */
+}
+
+li{
+    font-size: 25px;
+    list-style: none;
+}
+
+.size-25 {
+    font-size: 20px;
+}
+
+.profile-centence {
+    background-image: url(img/image\ \(1\).png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+}
+
+.left li{
+    margin-right: 13px;
+    margin-bottom: 57px;
+    /* margin-top: -15px; */
+    margin-left: -35px;
+}
+.right li{
+    margin-bottom: 57px;
+    /* vertical-align: text-bottom; */
+}
+#profile{
+    margin-top: 75px;   
+}
+#tetu{
+    position: relative;
+    left: 27.65px;
+}
+
+.p-img{
+    /* display: flex; */
+    /* margin: 0; */
+    display: block;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 670px;
+    right: 80px;
+    /* margin-left: 350px; */
+    /* position: relative;
+    top: 200px; */
+    width: 400px;
+    height: 80px;
+}
+
+
+
+/* footer */
+
+.flex{
+    display: flex;
+}
+
+footer{
+    height: 640px;
+    background-color: #F5F5F5;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-height{
+    height: 584px;
+}
+footer .flex{
+    justify-content: space-around;
+}
+
+.iwate{
+    padding-top: 110px;
+}
+
+#size{
+    width: 252px;
+    height: 72px;
+}
+
+#font-size{
+    font-size: 12px;
+}
+
+.m-auto{
+    margin: 174px 0 0 0;
+}
+
+.introduction{
+    margin-top: 103px;
+}
+
+.charm h1,.introduction h1{
+    text-align: left;
+    font-size: 24px;
+}
+.charm li,.introduction li{
+    padding-top: 22px;
+    list-style: none;
+    font-size: 18px;
+    margin-right: 56px;
+    text-align: left;
+}
+.m-left{
+    margin-left: -39px;
+}
+
+.top-scroll{
+    text-align: end;
+    /* margin-right: 40px; */
+    position: relative;
+    bottom: 190px;
+    & img{
+        width: 80px;
+        height: auto;
+    }
+}
+
+.create{
+    height: 56px;
+    background-color: white;
+    display: flex;
+    & h1{
+    font-size: 24px;
+    /* vertical-align: middle; */
+    text-align: center;
+    color: black;
+    }
+}
