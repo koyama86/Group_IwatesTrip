@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    height: 80px;
+}
+
+/* main */
+
+
+.font{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    font-family: 'Klee One', serif;
+    line-height: 50px;
+    margin: 0;
+}
+
+span{
+    font-size: 60px;
+    font-family: 'Jacques Francois Shadow', serif;
+}
+
+
+
+
+p {
+    margin-bottom: 0;
+}
+
+.height {
+    background-image: url(/お土産/bokasi1_1_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.height2 {
+    background-image: url(/お土産/bokasi2_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.height3 {
+    background-image: url(/お土産/bokasi3_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+/* img-position */
+
+.shoukai img {
+    margin-top: 77px;
+    padding: 55px;
+    background-color: #39D352;
+    /* z-index: ; */
+}
+
+.shoukai2 img {
+    margin-top: 77px;
+    width: 689px;
+    height: auto;
+    padding: 55px;
+    background-color: #D2E559;
+    /* margin-bottom: 0px; */
+}
+
+.shoukai3 img {
+    margin-top: 77px;
+    width: 689px;
+    height: auto;
+    padding: 55px;
+    background-color: #50D0D0;
+}
+
+/* shoukai */
+
+
+.shoukai a {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: -45px 0 0 60px;
+}
+
+.green {
+    text-align: center;
+    width: 380px;
+    display: inline-block;
+    padding: 35px 55px 45px 55px;
+    position: relative;
+    margin-top: -240px;
+    background-color: #39D352;
+    margin-bottom: 30px;
+    & h1 {
+        font-size: 40px;
+        text-align: center;
+
+        & a {
+            color: white;
+            /* text-decoration: none; */
+        }
+    }
+    & p{
+        /* margin: auto; */
+        text-align: left;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+.margin section{
+    margin-right: 20px;
+    text-align: right;
+}
+
+/* shoukai2 */
+
+.shoukai2 a {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: -45px 0 0 60px;
+}
+
+.yerrow {
+    width: 380px;
+    display: inline-block;
+    padding: 35px 64px 45px 55px;
+    position: relative;
+    margin-top: -240px;
+    background-color: #D2E559;
+    margin-bottom: 30px;
+    & h1 {
+        font-size: 40px;
+        text-align: center;
+
+        & a {
+            color: black;
+            /* text-decoration: none; */
+        }
+    }
+    & p{
+        /* margin: auto; */
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        margin-left: 30px;
+    }
+}
+
+.margin2 section{
+    margin-right: 20px;
+    text-align: right;
+}
+
+/* shoukai3 */
+
+.shoukai3 a {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: -45px 0 0 60px;
+}
+
+.blue {
+    width: 380px;
+    display: inline-block;
+    /* text-align: right; */
+    /* margin-right: 80px; */
+    /* margin: 0 auto 0 0; */
+    padding: 35px 58px 45px 60px;
+    text-align: center;
+    position: relative;
+    margin-top: -240px;
+    background-color: #50D0D0;
+    margin-bottom: 30px;
+    & h1 {
+        font-size: 40px;
+        text-align: center;
+
+        & a {
+            color: white;
+            /* text-decoration: none; */
+        }
+    }
+    & p{
+        /* margin: auto; */
+        text-align: left;
+        font-size: 30px;
+        color: white;
+        margin-left: 10px;
+    }
+}
+
+.margin3 section{
+    margin-right: 20px;
+    text-align: right;
+}
+
+
+
+/* map */
+
+.map {
+    padding-top: 135px;
+    height: 400px;
+}
+
+.flex {
+    display: flex;
+}
+
+.left23 {
+    padding-left: 23px;
+}
+
+.r51 {
+    padding-right: 31px;
+}
+
+.l51 {
+    padding-left: 31px;
+}
+
+.kamome_h1,
+.neri_h1,
+.makaron_h1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.makaron_h1 {
+    position: relative;
+    top: 10px;
+}
+
+.map p {
+    text-align: left;
+    font-size: 14px;
+}
+
+.right p {
+    position: relative;
+    top: 48px;
+}
+
+.middle p {
+    position: relative;
+    top: 16px;
+}
+
+.left p {
+    position: relative;
+    top: 14px;
+}
+
+
+/* footer */
+
+.flex {
+    display: flex;
+}
+
+footer {
+    height: 640px;
+    background-color: #F5F5F5;
+}
+
+.footer-height {
+    height: 584px;
+}
+
+footer .flex {
+    justify-content: space-around;
+}
+
+.iwate {
+    padding-top: 110px;
+}
+
+#size {
+    width: 252px;
+    height: 72px;
+}
+
+#font-size {
+    font-size: 12px;
+}
+
+.m-auto {
+    margin: 174px 0 0 0;
+}
+
+.introduction {
+    margin-top: 103px;
+}
+
+.charm h1,
+.introduction h1 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.charm li,
+.introduction li {
+    padding-top: 22px;
+    list-style: none;
+    font-size: 18px;
+    margin-right: 56px;
+    text-align: left;
+}
+
+.m-left {
+    margin-left: -39px;
+}
+
+.top-scroll {
+    text-align: end;
+    margin-right: 50px;
+
+    & img {
+        width: 80px;
+    }
+}
+
+.create {
+    height: 56px;
+    background-color: white;
+    display: flex;
+
+    & h1 {
+        font-size: 24px;
+        /* vertical-align: middle; */
+        text-align: center;
+        color: black;
+    }
+}
