@@ -112,7 +112,9 @@ footer .flex{
 }
 
 .iwate{
-    padding-top: 110px;
+    position: relative;
+    margin-top: -7.6em;
+    margin-left: 0.8em;
 }
 
 #size{
@@ -168,4 +170,9 @@ footer .flex{
     text-align: center;
     color: black;
     }
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
