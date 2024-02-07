@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+h1{
+
+    display: inline;
+    /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight:400; */
+    font-family: 'Inter', sans-serif;
+    color: #2b2b2b;
+
+    border-bottom:solid 2px #E71111 ;
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+padding: 0 14rem;
+color: #2b2b2b;
+height: 85vh;
+margin-top: 4rem;
+}
+main img{
+    width: 50%;
+}
+main div{
+    margin: 6rem 0;
+}
+main content{
+    width: 50%;
+
+}
+
+h2{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    border-bottom:solid 2px #2b2b2b ;
+    letter-spacing: 0.6rem;
+
+    font-weight: 300;
+    font-size: 3rem;
+
+}
+.suki{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+h2 span{
+    letter-spacing: 0rem;
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.mainp{
+    line-height: 1.7rem;
+    font-size: 1rem;
+}

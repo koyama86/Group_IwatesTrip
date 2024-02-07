@@ -9,15 +9,86 @@ font-style: normal; */
 
 .body{
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 .flex{
     display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.space26{
+    display: block;
+    padding-bottom: 2.6rem;
 }
 
 
 header{
     width: 100%;
     height: 5em;
-    background-color:cornsilk;
+    border: 1px solid #333;
 }
 
+
+footer{
+    height: 640px;
+    background-color: #F5F5F5;
+}
+.footer-height{
+    height: 584px;
+}
+footer .flex{
+    justify-content: space-around;
+}
+.iwate{
+    padding-top: 110px;
+}
+#size{
+    width: 252px;
+    height: 72px;
+}
+#font-size{
+    font-size: 12px;
+}
+.m-auto{
+    margin: 174px 0 0 0;
+}
+.introduction{
+    margin-top: 103px;
+}
+.charm h1,.introduction h1{
+    text-align: left;
+    font-size: 24px;
+}
+.charm li,.introduction li{
+    padding-top: 22px;
+    list-style: none;
+    font-size: 18px;
+    margin-right: 56px;
+    text-align: left;
+}
+.m-left{
+    margin-left: -39px;
+}
+.top-scroll{
+    text-align: end;
+    margin-right: 50px;
+    & img{
+        width: 80px;
+    }
+}
+.create{
+    height: 56px;
+    background-color: white;
+    display: flex;
+    & h1{
+    font-size: 24px;
+    /* vertical-align: middle; */
+    text-align: center;
+    color: black;
+    }
+}

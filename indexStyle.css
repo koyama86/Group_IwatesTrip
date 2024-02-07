@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* font-family: 'Inter', sans-serif; */
+
+/* font-family: "ta-koigokoro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* これら2つはそれぞれInterとTA-Koigokoroのフォント、使用時にクラスとかにはりつけて使ってね */
+body {
+    background-color: #fffefe;
+}
+
+header {
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+}
+
+.titleOdense {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 40vh;
+
+    z-index: 2;
+
+}
+
+.titleOdense img {
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.bgOdense {
+    position: relative;
+
+
+}
+
+.mainimg {
+
+    width: 100%;
+    height: 200vh;
+
+}
+
+.mainimg .bgimg {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.ovlay {
+    width: 100%;
+    background-color: #4d4d4d;
+    display: inline-block;
+}
+
+.tyuu {
+    font-family: "ta-koigokoro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    bottom: 5vh;
+}
+
+.mainmoji {
+    font-family: "ta-koigokoro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+
+}
+
+.Side {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+.underLineRed {
+    border-top: white solid 2px;
+
+    border-bottom: white solid 2px;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+
+
+
+}
+
+.etc {
+
+    width: 100%;
+
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    justify-content: center;
+}
+
+.etc .Line3s {
+
+
+    margin-top: -6px;
+}
+
+.turn90 {
+    transform: rotate(180deg);
+    margin-top: -4px;
+
+}
+
+.etc p {
+
+    font-family: "ta-koigokoro", sans-serif;
+    color: #00ADE4;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+
+.category-charm-full {
+    margin: 10rem 0.1rem;
+    margin-right: 0.3rem;
+    justify-content: space-around;
+}
+
+.category-charm {
+    color: #fffefe;
+
+    margin-left: 0.4rem;
+
+}
+
+.category-charm a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.category-charm {
+    position: relative;
+    z-index: 500;
+}
+
+.category-charm span {
+    writing-mode: vertical-rl;
+    position: absolute;
+    z-index: 600;
+    font-size: 1.6rem;
+    font-family: "ta-koigokoro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 0.3rem;
+
+
+}
+
+.category-charm span::after {
+    content: '  ';
+   
+    width: 0.5px;
+ 
+    height: 100%;
+
+    background-color: #fffefe;
+  
+    position: absolute;
+ 
+    bottom: 0;
+
+    left: -1;
+ 
+    transform: scale(1, 1);
+ 
+    transition: 0.8s all;
+
+}
+.category-charm span::before {
+
+    content: '  ';
+   
+    width: 0.5px;
+ 
+    height: 100%;
+
+    background-color: #fffefe;
+  
+    position: absolute;
+ 
+    top: 0;
+
+    left: 0;
+ 
+    transform: scale(1, 1);
+ 
+    transition: 0.8s all;
+}
+
+.hovImg:hover span::after {
+    bottom: 20%;
+    transition: 0.8s all;
+}
+.hovImg:hover span::before {
+    top: 20%;
+    transition: 0.8s all;
+}
+
+.hovImg {
+
+    background-color: #000000;
+
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hovImg img {
+    transition: 0.8s all;
+    transform: scale(1.1, 1.1);
+
+}
+
+.hovImg:hover img {
+    opacity: 0.75;
+    transform: scale(1, 1);
+    transition: 0.8s all;
+
+}
+
+.midokoro{
+    position: -webkit-sticky;
+    position:         sticky;
+    z-index: 4;
+    margin-top: 5rem;
+    top: 10rem;
+}
+
+
+.category-mem-full{
+    
+    position: relative;
+    z-index: 5;
+    background-color:#fffefe;
+    padding-top: 7rem;
+    height: 105vh;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    justify-content: space-around;
+
+}
+
+.hovImgmem {
+
+    position: relative;
+
+}
+.hovImgmem img{
+    transition:0.6s all;
+}
+.hovImgmem:hover img:first-of-type{
+    opacity: 0;
+}
+.hovImgmem:hover img:last-of-type{
+    opacity: 1;
+}
+
+.hovImgmem img:last-of-type{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
