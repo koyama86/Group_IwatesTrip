@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+/* main */
+
+.title img {
+    width: 435px;
+    height: auto;
+    margin-left: 7em;
+    margin-top: 2em;
+}
+
+.writer {
+    margin-top: 3em;
+    padding: 10em 0;
+    background-color: #EEEEEE;
+}
+
+
+.writer img {
+    width: 15em;
+    height: 15em;
+    margin: auto 0;
+    margin-left: 2em;
+}
+
+
+.akira,
+.koyama,
+.hurukawa {
+    width: 55em;
+    height: 18em;
+    margin-left: 7em;
+    margin-bottom: 10em;
+    background: #FFFFFF;
+    border-radius: 36px;
+}
+
+.takahashi {
+    width: 55em;
+    height: 15em;
+    margin-left: 7em;
+    background: #FFFFFF;
+    border-radius: 36px;
+}
+
+
+
+p {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+}
+
+
+.border {
+    width: 17em;
+    height: 0px;
+    margin-left: 1.7em;
+    border: 1px solid #000000;
+}
+
+section {
+    font-size: 1.3em;
+    margin-left: 2.5em;
+    line-height: 3em;
+}
+
+.p-size {
+    font-size: 1.7em;
+}
+
+.more {
+    margin: auto 0 2em 0;
+}
+
+.p-border {
+    width: 15em;
+    height: 0em;
+    margin-left: 1.5em;
+    border: 0.01em solid #000000;
+}
+
+.a-link {
+    text-decoration: none;
+    color: black;
+    font-family: "ta-koigokoro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    &:hover {
+        color: #FFA3A3;
+    }
+}
