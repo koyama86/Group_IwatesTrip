@@ -1,0 +1,298 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.underLineRed {
+    border-bottom: #AA3232 solid 2px;
+    padding-bottom: 2rem;
+
+
+}
+
+.bgfes .bgimg {
+    background-image: url(img/sisiodo.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.firstVeiw {
+    position: relative;
+}
+
+.moji p {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    line-height: 2.6rem;
+}
+
+.ringoImg {
+    position: absolute;
+    width: 55vw;
+    top: 62rem;
+    right: 0;
+    z-index: 1;
+}
+.outTitlefes{
+    padding-top: 9rem;
+}
+
+#titlefes {
+
+    font-family: "ta-koigokoro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: whitesmoke;
+    border: 3px whitesmoke solid;
+    writing-mode: vertical-rl;
+    width: 5.5rem;
+    margin: 0 auto;
+
+}
+
+.bgColor {
+    background-color: #AA3232;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.moji {
+    background-color: #AA3232;
+    border-top: whitesmoke 2px solid;
+    border-bottom: whitesmoke 2px solid;
+
+    font-family: 'Inter', sans-serif;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.paddingSide {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.introfes {
+    background-color: white;
+    /* 神コードflex-grow、指定すると余白を比率で計算し、growがついているやつ同士で分け合う。一つの場合はそれに全部つく。 */
+    flex-grow: 1;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+.mainintro {
+    border-radius: 6rem;
+    background-color: #F5E9E2;
+    padding: 8rem 4rem;
+    /* width: 100%; */
+    margin-top: 24rem;
+    margin-right:10rem;
+    margin-left:10rem;
+}
+
+.imgSize {
+    width: 25rem;
+    height: 560px;
+
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.titleP {
+    font-size: 1.4rem;
+    display: inline;
+    padding: 5px;
+    background-color: white;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.sub {
+    margin-left: 5rem;
+}
+
+.topP {
+    margin-top: 6rem;
+}
+
+.mainP {
+    font-size: 1.1rem;
+    display: inline;
+    padding: 5px;
+    padding-left: 0.8rem;
+    line-height: 2.6em;
+    background-color: white;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.fesbase {
+    margin-bottom: 16rem;
+
+}
+
+.lastbase {
+    margin-bottom: 5rem;
+}
+
+.outside {
+    background-color: white;
+    position: relative;
+
+}
+
+.outside nav {
+
+    font-family: "ta-koigokoro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 10rem;
+    font-size: 0.9rem;
+}
+
+.outside nav p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.outside .now {
+    background-color: #d9d9d9;
+}
+
+.in {
+    display: block;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    border: solid 2px #d9d9d9;
+    border-radius: 50%;
+    transition: 0.8s;
+    margin-top: 1vh;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
+
+.in:hover {
+    background-color: #d9d9d9;
+}
+
+.jump {
+
+
+
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+/* 遷移位置調整 */
+#sansa {
+    display: block;
+    padding-top: 65px;
+    margin-top: -65px;
+}
+
+#oni {
+    display: block;
+    padding-top: 65px;
+    margin-top: -65px;
+}
+
+#sisi {
+    display: block;
+    padding-top: 65px;
+    margin-top: -65px;
+}
+
+/*遷移位置調整終了 */
+.forsansa {
+    position: absolute;
+    top: 45vw;
+    left: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.foroni {
+    position: absolute;
+    top: 105vw;
+    left: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.forsisi {
+    position: absolute;
+    top: 155vw;
+    left: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.another p {
+
+    font-family: "ta-koigokoro", sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.etc {
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.etc .Lines {
+    margin-top: -6px;
+}
+
+.turn90 {
+    transform: rotate(180deg);
+    margin-top: -4px;
+
+}
+.famAno{
+    justify-content: space-between;
+}
+
+.forAno{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: whitesmoke solid 1px;
+
+}
+
+.hovImg{
+    display: block;
+    width: 16rem;
+    overflow: hidden;
+}
+
+.hovImg img{
+    transition: 0.8s all;
+}
+
+.hovImg img:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.8s all;
+
+}
+
+.triangle {
+    margin: 0 auto;
+    background: #ffffff;
+    height: calc(tan(60deg) * 40px / 2);
+    width: 40px;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+
+  }
