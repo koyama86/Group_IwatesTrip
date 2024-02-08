@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'TA恋心', serif;
+    background: linear-gradient(#DEEDEC, #76CFC7, #68D0C4, #2DB6BF)
+}
+
+.picture{
+    margin-left: 3rem;
+    margin-right: 5rem;
+    width: 400px;
+    height: 400px;
+}
+
+.box{
+    display: flex;
+}
+
+
+
+h1{
+    max-width: 300px;
+    margin: 5rem 0 2rem 5rem;
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+
+.item{
+    max-width: 560px;
+    max-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.item img{
+    max-width: 50px;
+    min-height: 50px;
+    width: 95%;
+    height: 95%;
+    padding:5px 8px 5px 5px;
+}
+
+.item p{
+    font-size: 30px;
+}
+
+
