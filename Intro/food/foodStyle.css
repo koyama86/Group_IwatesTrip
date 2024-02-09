@@ -1,0 +1,148 @@
+#daimei{
+  width: 100%;
+}
+
+body{
+    background-color: #FFA3A3;
+}
+
+
+
+/* ラインマーカー */
+.icon,.iconA,.iconB:before {
+    content: "";
+    padding-right: 10px;
+    border-left: 25px solid #FFFFA3;
+}
+
+
+.icon1,.icon2:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 25px solid #FFFFA3;
+}
+/* ラインマーカー */
+
+
+/* 右のやつ */
+.icon{
+  position: absolute;
+  text-align: right;
+  margin-left: 770px;
+}
+
+.iconA{
+  position: absolute;
+  text-align: right;
+  /* padding-top: 40%; */
+  margin-left: 770px;
+  top: 85rem;
+}
+.iconB{
+  position: absolute;
+  text-align: right;
+  padding-top: 39%;
+  margin-left: 750px;
+}
+/* 右のやつ */
+
+
+/* 左のやつ */
+.icon1{
+  position: absolute;
+  text-align: left;
+}
+
+.icon2{
+  position: absolute;
+  text-align: left;
+}
+/* 左のやつ */
+
+/* 文章 */
+.tekisuto{
+  position: absolute;
+  left: 61%;
+  bottom: 30px;
+  font-size: 25px;
+}
+
+.tekisuto1{
+  position: absolute;
+  right: 61%;
+  top: 159%;
+  font-size: 25px;
+}
+
+.tekisuto2{
+  position: absolute;
+  left: 61%;
+  top: 245%;
+  font-size: 25px;
+}
+
+.tekisuto3{
+  position: absolute;
+  right: 61%;
+  top: 333%;
+  font-size: 25px;
+}
+
+.tekisuto4{
+  position: absolute;
+  left: 60%;
+  top: 418%;
+  font-size: 25px;
+}
+/* 文章 */
+
+/* 遷移 */
+.a1{
+  position: absolute;
+  left: 62%;
+  bottom: -270px;
+}
+
+.a2{
+  position: absolute;
+  right: 70%;
+  top: 226%;
+}
+
+.a3{
+  position: absolute;
+  left: 61%;
+  top: 312%;
+}
+
+.a4{
+  position: absolute;
+  right: 67%;
+  top: 400%;
+}
+
+.a5{
+  position: absolute;
+  left: 60%;
+  top: 482%; 
+}
+
+
+
+/* 遷移 */
+
+
+
+  /* リンク */
+a{
+    font-size: 27px;
+    color: #FFFFA3;
+}
+  /* リンク */
+
+
+
+
+main{
+  margin-bottom: 100px;
+}

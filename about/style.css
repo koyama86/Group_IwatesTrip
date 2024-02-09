@@ -1,0 +1,170 @@
+body{
+    background-color: #FFFFA3;
+}
+
+
+#rounded-box {
+    background-color: #FFFF60;
+	padding:1em;/*内側余白*/
+	border-radius:30px;/*丸みを調整*/
+    text-align: center;
+}
+
+.a{
+    font-size: 55px;
+    font-family: "Yomogi", cursive;
+}
+
+/* ボックス */
+.box1 {
+    padding: 0.5em 1em;
+    color: #2c2c2f;
+    background: #FFFF60;/*背景色*/
+    text-align: left;
+    height: 250px;
+    width: 550px;
+    margin: 2em 0 0 auto;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box2 {
+    padding: 0.5em 1em;
+    color: #2c2c2f;
+    background: #FFFF60;/*背景色*/
+    text-align: left;
+    height: 250px;
+    width: 550px;
+    margin: 2em 0 0 auto;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box3 {
+    padding: 0.5em 1em;
+    color: #2c2c2f;
+    background: #FFFF60;/*背景色*/
+    text-align: left;
+    height: 250px;
+    width: 550px;
+    margin: 2em 0 0 auto;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box4 {
+    padding: 0.5em 1em;
+    color: #2c2c2f;
+    background: #FFFF60;/*背景色*/
+    text-align: left;
+    height: 250px;
+    width: 550px;
+    margin: 2em 0 0 auto;
+}
+.box4 p {
+    margin: 0; 
+    padding: 0;
+}
+/* ボックス */
+
+
+
+/* アイコン */
+img{
+    text-align: center;
+    border-radius: 50%;
+}
+/* アイコン */
+
+
+
+.b1{
+    font-size: 40px;
+     position: absolute;
+    top: 64%;
+    left: 72%;
+    font-family: "Yomogi", cursive;
+}
+
+.b2{
+    font-size: 35px;
+     position: absolute;
+    top: 117%;
+    left: 67%;
+    font-family: "Yomogi", cursive;
+}
+.reco{
+    display: flex;
+
+}
+main img{
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+}
+
+.b3{
+    font-size: 30px;
+     position: absolute;
+    top: 165%;
+    left: 65%;
+    font-family: "Yomogi", cursive;
+}
+
+
+.b4{
+    font-size: 30px;
+     position: absolute;
+    top: 211%;
+    left: 57%;
+    font-family: "Yomogi", cursive;
+}
+
+
+
+
+/*  */
+.p1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+
+.p2{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+
+.p3{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+
+.p4{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
