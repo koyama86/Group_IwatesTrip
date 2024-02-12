@@ -18,8 +18,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 .space26{
     display: block;
     padding-bottom: 2.6rem;
@@ -65,7 +63,10 @@ nav li {
 }
 
 /* footer */
+
+
 footer {
+    font-family: "ta-koigogro",serif;
     height: 640px;
     background-color: #F5F5F5;
 }
@@ -118,6 +119,8 @@ footer .flex {
 .create {
     height: 56px;
     background-color: white;
+    margin-left: 30px;
+    /* width: 100%; */
     display: flex;
     & h1 {
         font-size: 24px;
@@ -126,6 +129,12 @@ footer .flex {
         color: black;
     }
 }
+
+.top-scroll a{
+    display: inline-block;
+}
+
+
 footer a {
     text-decoration: none;
     color: black;
