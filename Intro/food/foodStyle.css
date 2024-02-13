@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-body{
+main{
     background-color: #FFA3A3;
 }
 
@@ -135,5 +135,5 @@ main a{
   /* リンク */
 
 main{
-  margin-bottom: 100px;
+  padding-bottom: 5em;
 }
