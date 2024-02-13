@@ -1,31 +1,92 @@
 @charset "UTF-8";
+/* font-family: 'Inter', sans-serif; */
 
-body{
-    font-family: 'TA恋心', serif;
-    background: linear-gradient(#DEEDEC, #76CFC7, #68D0C4, #2DB6BF)
+/* font-family: "ta-koigokoro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* これら2つはそれぞれInterとTA-Koigokoroのフォント、使用時にクラスとかにはりつけて使ってね */
+.body{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.flex{
+    display: flex;
 }
 
-.picture{
+html {
+    scroll-behavior: smooth;
+}
+
+.space26{
+    display: block;
+    padding-bottom: 2.6rem;
+}
+
+
+header {
+    width: 100%;
+    height: 5em;
+    background-color: white;
+    & img {
+        position: relative;
+        margin-top: 0.8em;
+        margin-left: 3em;
+        width: 245.5px;
+        height: 44.6px;
+        & :hover {
+            display: none;
+        }
+    }
+}
+nav {
+    margin: 0 0 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+nav ul {
+    margin: 0 0 0 auto;
+}
+nav li {
+    position: relative;
+    margin-top: 1.8em;
+    margin-right: 3em;
+    list-style: none;
+    font: 0.5em;
+    & a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: #00ADE4;
+        }
+    }
+}
+
+body {
+    font-family: 'TA恋心', serif;
+    background: linear-gradient(#DEEDEC, #76CFC7, #68D0C4, #2DB6BF);
+}
+
+.picture {
     margin-left: 3rem;
     margin-right: 5rem;
     width: 400px;
     height: 400px;
 }
 
-.box{
+.box {
     display: flex;
+    padding-bottom: 100px;
 }
 
-
-
-h1{
+.h1 {
     max-width: 300px;
     margin: 5rem 0 2rem 5rem;
     text-align: center;
     border-bottom: 2px black solid;
 }
 
-.item{
+.item {
     max-width: 560px;
     max-height: 400px;
     background-color: white;
@@ -35,16 +96,112 @@ h1{
     margin-left: 6rem;
 }
 
-.item img{
+.item img {
     max-width: 50px;
     min-height: 50px;
     width: 95%;
     height: 95%;
-    padding:5px 8px 5px 5px;
+    padding: 5px 8px 5px 5px;
 }
 
-.item p{
+.item p {
     font-size: 30px;
 }
 
 
+
+/* footer */
+
+.flex {
+    display: flex;
+}
+
+footer {
+    font-family: "ta-koigogro", serif;
+    height: 640px;
+    background-color: #F5F5F5;
+}
+
+.footer-height {
+    height: 584px;
+}
+
+footer .flex {
+    justify-content: space-around;
+}
+
+.iwate {
+    padding-top: 110px;
+}
+
+#size {
+    width: 252px;
+    height: 72px;
+}
+
+#font-size {
+    font-size: 12px;
+}
+
+.m-auto {
+    margin: 174px 0 0 0;
+}
+
+.introduction {
+    margin-top: 103px;
+}
+
+.charm h1,
+.introduction h1 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.charm li,
+.introduction li {
+    padding-top: 22px;
+    list-style: none;
+    font-size: 18px;
+    margin-right: 56px;
+    text-align: left;
+}
+
+.m-left {
+    margin-left: -39px;
+}
+
+.top-scroll {
+    text-align: end;
+    /* margin-right: 50px; */
+    margin: 0 30px 0 auto;
+    /* display: inline-block; */
+    & img {
+        margin: 0 0 0 auto;
+        width: 80px;
+    }
+}
+
+.top-scroll a{
+    display: inline-block;
+}
+
+
+.create {
+    height: 56px;
+    background-color: white;
+    display: flex;
+
+    & h1 {
+        margin: auto 0;
+        font-size: 24px;
+        margin-left: 30px;
+        /* vertical-align: middle; */
+        text-align: center;
+        color: black;
+    }
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
