@@ -1,67 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
-    <!-- このスクリプトはTA-Koigokoroフォントに使用時必須 -->
-    <script>
-        (function(d) {
-          var config = {
-            kitId: 'dqu6ppw',
-            scriptTimeout: 3000,
-            async: true
-          },
-          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-        })(document);
-      </script>
-      <link rel="stylesheet" href="foodStyle.css">
-      <link rel="stylesheet" href="reset.css">
-      <link rel="stylesheet" href="allStyle.css">
 
-<!--    ここまでは全htmlに必須、こっからしたはコピー不要 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+  <!-- このスクリプトはTA-Koigokoroフォントに使用時必須 -->
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'dqu6ppw',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <link rel="stylesheet" href="foodStyle.css">
+  <link rel="stylesheet" href="../../reset.css">
+  <link rel="stylesheet" href="../../allStyle.css">
+
+  <!-- ここまでは全htmlに必須、こっからしたはコピー不要 -->
 
 <body>
 
-    <header></header>
+  <header class="header">
+    <nav class=" flex">
 
-    <main>
+      <script>
+
+        window.onload = function () {
+
+          let img = document.getElementById("hover");
+
+          // マウスオーバーイベントを設定
+          img.onmouseover = function () {
+            img.src = "../../title_hover.png";
+          };
+
+          // マウスアウトイベントを設定
+          img.onmouseout = function () {
+            img.src = "../../top_iwate.png";
+          };
+
+        }
+
+      </script>
+
+      <a href="../../index.html"><img id="hover" src="../../top_iwate.png" alt="title"></a>
+
+      <ul class="flex">
+        <li><a href="../spot/kankou.html">SPOT</a></li>
+        <li><a href="../festival/festival.html">FESTIVAL</a></li>
+        <li><a href="#">GIFT</a></li>
+        <li><a href="../food/food.html">FOOD</a></li>
+        <li><a href="../../about/aboutUs.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
 
     <img id="daimei" src="../food/foodimg/岩手の食べ物食べ物.png">
 
-    
-    <h1 class="icon">前沢牛</h1>
-    <p id="txt">
-      <img src="../food/foodimg/前沢牛.png" alt="写真" align="top"></p>
-    <p class="tekisuto">前沢牛は、岩手県奥州市前沢で肥育された黒毛和種の和牛が、一定の規格を満たした場合に呼称を許されるブランド牛肉。</p><a class="a1" href="https://maesawagyuogata.com/">前沢牛の発祥のお店はこちら</a>
+    <div class="flex left">
 
-    <h1 class="icon1">盛岡冷麺</h1>
-    <p id="txt1">
-    <img src="../food/foodimg/盛岡冷麺.png" alt="写真" align="right"></p><a class="a2" href="https://shokudoen.com/">盛岡冷麺の発祥のお店はこちら</a>
-    <p class="tekisuto1">盛岡冷麺は、岩手県盛岡市の名物麺料理。わんこそば、じゃじゃ麺と並んで「盛岡三大麺」と称されている。主に焼き肉店での定番として提供される。</p>
+      <img src="../food/foodimg/前沢牛.png" alt="写真" align="top">
 
-    <h1 class="iconA">盛岡じゃじゃめん</h1>
-    <p id="txt">
-      <img src="../food/foodimg/盛岡じゃじゃめん.png" alt="写真" align="top"></p><a class="a3" href="https://www.pairon.iwate.jp/">盛岡じゃじゃ麺の発祥のお店はこちら</a>
-    <p class="tekisuto2">盛岡じゃじゃ麺は岩手県盛岡市の郷土料理。わんこそば、冷麺と並んで「盛岡三大麺」または「岩手の三大麺」と称される麺料理の一つである。</p>
+      <div class="m-left">
+        <h1 class="icon">前沢牛</h1>
+        <p class="tekisuto">
+          前沢牛は、岩手県奥州市前沢で肥育された黒毛和種の和牛が、一定の規格を満たした場合に呼称を許されるブランド牛肉。
+        </p>
+        <a class="a" href="https://maesawagyuogata.com/">前沢牛の発祥のお店はこちら</a>
+      </div>
+    </div>
 
+    <div class="flex right">
+      <div class="m-right">
+        <h1 class="icon1">盛岡冷麺</h1>
+        <p class="tekisuto1">盛岡冷麺は、岩手県盛岡市の名物麺料理。わんこそば、じゃじゃ麺と並んで「盛岡三大麺」と称されている。主に焼き肉店での定番として提供される。</p>
+        <a class="a2" href="https://shokudoen.com/">盛岡冷麺の発祥のお店はこちら</a>
+      </div>
+      <img src="../food/foodimg/盛岡冷麺.png" alt="写真" align="right">
+    </div>
 
-    <h1 class="icon2">わんこそば</h1>
-    <p id="txt1">
-      <img src="../food/foodimg/わんこそば.png" alt="写真" align="right"></p><a class="a4" href="https://yabuya.jp/free/wanko_history">わんこそばの発祥のお店はこちら</a>
-    <p class="tekisuto3">そばを椀に盛って差し上げたところから「わんこそば」と称されるようになった。大食いのイメージがあるが、元々はお客様にたくさん召し上がっていただきたいというおもてなしの食文化である。</p>
+    <div class="flex left">
+      <img src="../food/foodimg/盛岡じゃじゃめん.png" alt="写真" align="top">
+      <div class="m-left">
+        <h1 class="iconA">盛岡じゃじゃめん</h1>
+        <p class="tekisuto2">盛岡じゃじゃ麺は岩手県盛岡市の郷土料理。わんこそば、冷麺と並んで「盛岡三大麺」または「岩手の三大麺」と称される麺料理の一つである。</p>
+        <a class="a3" href="https://www.pairon.iwate.jp/">盛岡じゃじゃ麺の発祥のお店はこちら</a>
+      </div>
+    </div>
 
-      <h1 class="iconB">１０段巻きソフトクリーム</h1>
-      <p id="txt">
-        <img src="../food/foodimg/１０段巻きソフトクリーム.png" alt="写真" align="top"></p><a class="a5" href="https://www.kamichoyamori.com/">マルカンビル大食堂のサイトこちら</a>
-      <p class="tekisuto4">岩手県花巻市の「マルカンビル大食堂」にある25cm以上の高さがあるソフトクリームです。1973年から設立されている建物で昭和のレトロな雰囲気もそのまま残っており、とても人気です。</p>
+    <div class="flex right">
+      <div class="m-right">
+        <h1 class="icon2">わんこそば</h1>
+        <p class="tekisuto3">
+          そばを椀に盛って差し上げたところから「わんこそば」と称されるようになった。大食いのイメージがあるが、元々はお客様にたくさん召し上がっていただきたいというおもてなしの食文化である。
+        </p>
+        <a class="a4" href="https://yabuya.jp/free/wanko_history">わんこそばの発祥のお店はこちら</a>
+      </div>
+      <img src="../food/foodimg/わんこそば.png" alt="写真" align="right">
+    </div>
 
+    <div class="flex left">
+      <img src="../food/foodimg/１０段巻きソフトクリーム.png" alt="写真" align="top">
+      <div class="m-left">
+        <h1 class="iconB">１０段巻きソフトクリーム</h1>
+        <p class="tekisuto4">岩手県花巻市の「マルカンビル大食堂」にある25cm以上の高さがあるソフトクリームです。1973年から設立されている建物で昭和のレトロな雰囲気もそのまま残っており、とても人気です。
+        </p>
+        <a class="a5" href="https://www.kamichoyamori.com/">マルカンビル大食堂のサイトこちら</a>
+      </div>
+    </div>
   </main>
-  
-    <footer></footer>
 
+  <footer>
+    <div class="footer-height">
+      <div class="flex">
+        <div class="iwate">
+          <img id="size" src="../../iwate.png" alt="iwate"><br>
+          <small id="font-size">&copy;2024 Jyobi_GroupWorks inc.</small>
+        </div>
+        <div class="m-auto">
+          <div class="charm">
+            <h1><a href="../../index.html">魅力の紹介</a></h1>
+            <ul class="flex">
+              <li class="m-left"><a href="../spot/kankou.html">観光地</a></li>
+              <li><a href="../festival/festival.html">お祭り</a></li>
+              <li><a href="../gift/omiyage.html">お土産</a></li>
+              <li><a href="../food/food.html">食べ物</a></li>
+            </ul>
+          </div>
+
+          <div class="introduction">
+            <h1><a href="../../about/aboutUs.html">自己紹介</a></h1>
+            <ul class="flex">
+              <li class="m-left"><a href="../../about/hurukawa.html">古川里菜</a></li>
+              <li><a href="../../about/hinata.html">小山陽向</a></li>
+              <li><a href="../../about/akira.html">大野哲</a></li>
+              <li><a href="../../about/takahashi.html">高橋彩夏</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="top-scroll">
+        <a href="#">
+          <img src="../../scroll.png" alt="top">
+        </a>
+      </div>
+    </div>
+    <div class="create">
+      <h1>This page created by Takahashi Ayaka</h1>
+    </div>
+  </footer>
 </body>
 </head>
+
 </html>
