@@ -24,7 +24,7 @@ main{
     vertical-align: bottom;
 }
 
-p {
+.p {
     display: inline-block;
     font-size: 60px;
 }
@@ -72,8 +72,8 @@ main .li{
     position: relative;
     /* bottom: 670px;
     right: 80px; */
-    width: 400px;
-    height: 80px;
+    width: auto;
+    height: 60px;
 }
 
 
