@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="plofileA.css">
-    <link rel="stylesheet" href="../allStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <!-- このスクリプトはTA-Koigokoroフォントに使用時必須 -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'dqu6ppw',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
 
-    <title>ABOUT US - 大野哲profile</title>
+    <link rel="stylesheet" href="./../reset.css">
+    <link rel="stylesheet" href="./../allStyle.css">
 
+    <!--    ここまでは全htmlに必須、こっからしたはコピー不要 -->
+
+    <link rel="stylesheet" href="./hinataStyle.css">
+    <title>ABOUT US - 小山陽向profile</title>
 </head>
 
-<body style="margin: 0;padding: 0;">
+<body>
     <header class="header">
         <nav class=" flex">
 
@@ -53,43 +67,28 @@
 
 
     <main>
-        <div class="profile flex">
-            <img class="profile-img" src="a-img/image.png" alt="プロフィール画像">
-            <div class="profile-centence">
-                <!-- backgroundにimgを入れる -->
-                <div id="profile">
-                    <p class="font"><span>大野</span><span id="tetu">哲</span></p>
-                    <div class="flex centence">
-                        <div class="left">
-                            <ul class="font">
-                                <li>学科</li>
-                                <li>好きな言葉</li>
-                                <li>こめんと</li>
-                            </ul>
-                        </div>
-                        <div class="right">
-                            <ul>
-                                <li class="font">総合システム工学科</li>
-                                <li class="font">唯我独尊</li>
-                                <li class="font size-25">
-                                    今回お土産ページを担当した<br>
-                                    大野です。私のページを見て<br>
-                                    興味をもち、岩手のお土産だ<br>
-                                    けではなく、行事や食事など<br>
-                                    様々なことを調べていただけ<br>
-                                    ると幸いです。
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img class="p-img" src="a-img/profile.png" alt="profile">
+        <h1>ABOUT ME　</h1>
+        <div class="flex">
+            <img src="./img/No4.png" alt="hinata">
+            <content>
+                <h2>小山陽向<span>総合システム工学科</span></h2>
+                <p class="suki">
+                    好きな言葉：なんとかなる
+                </p>
+                <p class="mainp">
+                    このサイトをご覧いただきありがとうございます。<br>
+                    主にお祭り紹介ページを担当しました。<br>
+                    お祭り紹介ページでは、和風な色使いと現代風のいわゆるえもさを混ぜ、<br>
+                    元々興味がなかった方でも伝統芸能に対して少しでも興味を持っていただ<br>
+                    けるように制作いたしました。紹介した祭りの中でも盛岡さんさ祭りは<br>
+                    さんさ踊りを知らなくても雰囲気で楽しめるものとなっております。<br>
+                    ぜひ一度足を運んでみてはいかがでしょうか。<br>
+                </p>
+            </content>
 
+        </div>
 
     </main>
-
 
 
     <footer>
@@ -128,11 +127,9 @@
             </div>
         </div>
         <div class="create">
-            <h1>This page created by Oono Akira</h1>
+            <h1>This page created by Koyama Hinata</h1>
         </div>
     </footer>
-
-
 </body>
 
 </html>
