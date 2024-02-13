@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-header {
-    height: 80px;
-}
 main{
     margin:0;
     padding: 0;
@@ -14,11 +11,8 @@ main{
     justify-content: center;
 }
 
-.flex {
-    display: flex;
-}
 
-img {
+.profile-img {
     margin-top: 230px;
     margin-right: 55px;
     width: 499px;
@@ -32,14 +26,10 @@ img {
 
 p {
     display: inline-block;
-    /* width: 300px; */
-    /* padding-top: 194px; */
     font-size: 60px;
-    /* padding-bottom: 10px; */
-    /* white-space: 50px; */
 }
 
-main li{
+main .li{
     font-size: 25px;
     list-style: none;
 }
@@ -55,18 +45,18 @@ main li{
     /* background-size: auto; */
 }
 
-.left li{
+.left .li{
     margin-right: 13px;
     margin-bottom: 57px;
     /* margin-top: -15px; */
     margin-left: -35px;
 }
-.right li{
+.right .li{
     margin-bottom: 57px;
     /* vertical-align: text-bottom; */
 }
 #profile{
-    margin-top: 75px;   
+    margin-top: 80px;   
 }
 #tetu{
     position: relative;
@@ -74,26 +64,22 @@ main li{
 }
 
 .p-img{
-    /* display: flex; */
-    /* margin: 0; */
     display: block;
-    padding: 0;
-    margin: auto;
+    padding:0 ;
+    padding-left: 25vw;
+    margin-bottom: -5rem;
     text-align: center;
     position: relative;
-    bottom: 670px;
-    right: 80px;
-    /* margin-left: 350px; */
-    /* position: relative;
-    top: 200px; */
+    /* bottom: 670px;
+    right: 80px; */
     width: 400px;
     height: 80px;
 }
 
 
 
-/* footer */
-
+/* footer   baseはあきら作 */
+/* 
 .flex{
     display: flex;
 }
@@ -152,22 +138,22 @@ footer .flex{
 .top-scroll{
     text-align: end;
     /* margin-right: 40px; */
-    position: relative;
+    /* position: relative; */
     /* bottom: 190px; */
-    & img{
+    /* & img{
         width: 80px;
         height: auto;
     }
-}
+} */
 
-.create{
+/* .create{
     height: 56px;
     background-color: white;
     display: flex;
     & h1{
     font-size: 24px;
     /* vertical-align: middle; */
-    text-align: center;
+    /* text-align: center;
     color: black;
     }
 }
@@ -175,4 +161,4 @@ footer .flex{
 footer a{
     text-decoration: none;
     color: black;
-}
+} */    

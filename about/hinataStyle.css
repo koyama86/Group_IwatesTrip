@@ -37,6 +37,7 @@ main h2{
 
     font-weight: 300;
     font-size: 3rem;
+    width: max-content;
 
 }
 .suki{
@@ -52,4 +53,5 @@ main h2 span{
 .mainp{
     line-height: 1.7rem;
     font-size: 1rem;
+    width: max-content;
 }
